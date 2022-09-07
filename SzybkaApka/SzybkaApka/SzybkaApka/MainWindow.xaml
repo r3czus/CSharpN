@@ -1,0 +1,24 @@
+﻿<Window x:Class="SzybkaApka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzybkaApka"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.ColumnSpan="2" FontSize="80px" TextAlignment="Center" >Napisz Poniżej coś </TextBlock>
+        <TextBox Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" x:Name="Tekst" TextAlignment="Center" FontSize="24" Margin="40" AutomationProperties.HelpText="Napisz co tu"  > Napisz cos tu</TextBox>
+        <TextBlock Grid.Row="2" x:Name="DoWpisania"> </TextBlock>
+        <Button Grid.Column="1" Grid.Row="2" Click="Button_Click"> Przepisz to co jest powyżej </Button>
+    </Grid>
+</Window>
