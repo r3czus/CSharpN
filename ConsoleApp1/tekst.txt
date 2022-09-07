@@ -1,0 +1,7 @@
+
+TYtul: Tytul
+OpisOpis
+Zawartosc:3
+TYtul: Nowy Tytul
+Opisszybki opis
+Zawartosc:xd
